@@ -1,0 +1,24 @@
+.barBack {
+  position: relative;
+  background-color: #dddddd;
+  height: 100%;
+  width: 1.5rem;
+}
+
+hr {
+  position: relative;
+  background-color: greenyellow;
+  height: 100%;
+  width: 1.5rem;
+  transition: height 2s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 0;
+}

@@ -1,0 +1,30 @@
+.itemCard {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 40rem;
+  color: black;
+  padding: 2rem;
+  border: thin solid black;
+  border-radius: 0.8rem;
+  box-shadow: 2px 3px 5px 0px black;
+  margin: 1.5rem;
+  animation-name: card;
+  animation-duration: 1.5s;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  .itemCard {
+    width: 70vw;
+  }
+}
+@keyframes card {
+  0% {
+    opacity: 0;
+    transform: translateX(1rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

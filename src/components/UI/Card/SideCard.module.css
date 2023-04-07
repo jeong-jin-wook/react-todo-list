@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 2rem;
+  height: 60vh;
+  padding: 1rem;
+  color: black;
+  border: thin solid black;
+  border-radius: 0.8rem;
+  box-shadow: 2px 3px 5px 0px black;
+  transition-property: all;
+  transition-duration: 1s;
+  animation-name: card;
+  animation-duration: 1.5s;
+  align-items: center;
+  margin-right: 1rem;
+}
+@media (max-width: 768px) {
+  .card {
+    display: none;
+  }
+}
+@keyframes card {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

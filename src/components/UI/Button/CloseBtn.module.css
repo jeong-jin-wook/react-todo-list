@@ -1,0 +1,13 @@
+.closeBtn {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+.closeBtn:hover {
+  background-color: #ff5555;
+}
